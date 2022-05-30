@@ -1,0 +1,23 @@
+ID,pt-BR,en-US
+_lang,Português,English
+menu.main.new_game,Novo jogo,New game
+menu.main.load_game,Carregar jogo,Load game
+menu.main.options,Opções,Options
+menu.main.exit,Sair,Exit
+menu.option.system,Sistema,System
+menu.option.voice,Voz,Voice
+menu.option.music,Múscia,Music
+menu.option.type_speed,Velocidade de digitação,typing speed
+menu.option.save,Salvar,Save
+menu.option.credtis,Créditos,Credits
+menu.option.back_to_menu,Voltar ao menu principal,Back to main menu
+menu.option.default_options,Definições padrões,Default options
+menu.option.read_speed,Velocidade de leitura,Read speed
+menu.option.lang,Idiomas,Languages
+credits.game_designer,Game designer,Game designer
+credits.level_designer,Level Designer,Level Designer
+credits.art_direction,Direção de arte,Art direction
+credits.sound_direction,Direção de áudio,Sound direction
+credits.staff.rode,Rodemarck,Rodemarck
+credits.staff.fefe,Fernanda,Fernanda
+credits.staff.vik,Vik,Vik

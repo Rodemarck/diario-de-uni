@@ -8,6 +8,15 @@
         "UserSettings":true,
         "Library":true,
         "ProjectSettings":true,
-        "Temp":true
+        "Temp":true,
+        "**/**.csproj":true,
+        "**/**.sln":true,
+        "obj":true,
+        ".idea":true,
+        "Assets/Scenes":true,
+        "Assets/Scripts":true,
+        "Assets/TextMesh Pro":true,
+        "Assets/Resources/cenas":true,
+        "Assets/Resources/prefabs":true
     }
 }
