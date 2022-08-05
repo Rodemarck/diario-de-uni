@@ -1,13 +1,23 @@
 {
     "files.exclude": {
-        "*.import": true,
+        "**/**.csproj":true,
+        "**/**.sln":true,
+        "**/*.import": true,
         "**/*.meta":true,
+        "**/*.unity":true,
+        "**/*.prefab":true,
         "out":true,
         "Logs":true,
         "Packages":true,
         "UserSettings":true,
         "Library":true,
         "ProjectSettings":true,
-        "Temp":true
+        "Temp":true,
+        "obj":true,
+        ".idea":true,
+        "Assets/Scenes":true,
+        "Assets/TextMesh Pro":true,
+        "Assets/Resources/cenas":true,
+        "Assets/Resources/prefabs":true
     }
 }
