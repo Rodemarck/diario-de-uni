@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/menus/Menu Carregar.unity.meta
 guid: d522813d4b8e13743a31cfc343699547
+========
+guid: 23760af7c6cda284e9aac5a536768f3d
+folderAsset: yes
+>>>>>>>> 87fd484eebbefb900a8170cf6569c9efe58c312e:Assets/Scripts/World.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

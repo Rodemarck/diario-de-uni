@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Generals/Translatable.cs.meta
 guid: 303d7dad1923fbf49950dcaae990cd4d
+========
+guid: 0757391d6126fc741ab5b397b26f12f6
+>>>>>>>> 87fd484eebbefb900a8170cf6569c9efe58c312e:Assets/Scripts/World/WorldController.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

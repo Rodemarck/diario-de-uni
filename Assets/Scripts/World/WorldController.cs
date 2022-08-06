@@ -8,12 +8,14 @@ using System.Threading;
 using UnityEngine;
 using Gui;
 
+
 namespace World{
     [DisallowMultipleComponent]
     public class WorldController:MonoBehaviour{
         #region Singleton
 
         private static WorldController _instance;
+
         private void Awake(){
             if (_instance != null)
                 return;
@@ -24,6 +26,7 @@ namespace World{
             if (!_translator.ContainsKey(_lang))
                 _lang = "en-US";
             LoadConfig();
+
         }
 
         public static WorldController Instance => _instance;
@@ -32,6 +35,7 @@ namespace World{
         #region Localization    
         private void ReadLocalizationFile(){
             var lines = System.IO.File.ReadLines(@"./Assets/Resources/Localization/texts.csv");
+
             using var en = lines.GetEnumerator();
             en.MoveNext();
             var colums = en.Current.Split(",");
@@ -62,6 +66,7 @@ namespace World{
         private Dictionary<string,string> _supportedLanguages;
 
         public List<string> SupportedLanguages(){
+
             return _supportedLanguages.Select(pair => pair.Value).ToList();
         }
 
@@ -71,7 +76,7 @@ namespace World{
             }
             return "en-US";
         }
-       
+
         private string _lang;
         public string Translate(string id){
             return _translator[_lang][id];
@@ -82,10 +87,6 @@ namespace World{
             return _translator[lang][id];
         }
 
-        public void LangChange(){
-            foreach (var tmt in GameObject.FindObjectsOfType<Translatable>( ))
-                tmt.Translate();
-        }
 
 
         public void SetLang(string text)
