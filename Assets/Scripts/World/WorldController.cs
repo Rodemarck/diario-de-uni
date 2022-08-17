@@ -96,6 +96,13 @@ namespace World{
                 _lang = "en-US";
         }
 
+        public void LangChange(){
+            var objs = GameObject.FindObjectsOfType<Translatable>();
+            foreach(var obj in objs){
+                obj.Translate();
+            }
+        }
+
         #endregion
 
         #region Config
