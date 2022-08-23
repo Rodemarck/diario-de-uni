@@ -1,7 +1,7 @@
 ﻿# requerimento funcionais.
 
 ## Itens
-- [ ] existir
+- [x] existir
 - [ ] coletar
 - [ ] utilizar
 
