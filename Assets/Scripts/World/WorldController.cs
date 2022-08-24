@@ -163,5 +163,21 @@ namespace World{
         }
         #endregion
         #endregion
+    
+        #region SaveSystem
+        public Canvas UICanvas;
+        public void ScreenShoot(string path){
+            StartCoroutine(CaptureScreen(path));
+        }
+        public IEnumerator CaptureScreen(string path){
+            yield return null;
+            UICanvas.enabled = false;
+            yield return new WaitForEndOfFrame();
+            Application.CaptureScreenshot(path);
+            UICanvas.enabled = true;
+        }
+
+        
+        #endregion
     }
 }

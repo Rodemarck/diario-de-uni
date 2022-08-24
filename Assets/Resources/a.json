@@ -1,0 +1,572 @@
+{
+    "jujuba":{
+        "id": 1,
+        "nome":"jujuba",
+        "nome_completo": "jujuba doce",
+        "personalidade": {
+            "estabilidade": 75,
+            "gostos": [
+                {
+                    "tipo": "comida",
+                    "nome": "hamburguer",
+                    "forca": 45,
+                    "efeito": []
+                }
+            ],
+            "personas": [
+                {
+                    "tipo": "normal",
+                    "nome": "normal",
+                    "forca": 95,
+                    "catacteristicas": [
+                        "extovertida",
+                        "engraçada",
+                        "empatica"
+                    ],
+                    "causa": null,
+                    "mudancas": [
+                        {
+                            "tipo": "chatiche",
+                            "persona_alvo": "debochada",
+                            "forca": 2,
+                            "causa": [
+                                {
+                                    "tipo": "conversa",
+                                    "forca": 95,
+                                    "agente": {
+                                        "grupo": "todo_mundo",
+                                        "princial": "<reporter>",
+                                        "motivacao": [
+                                            "demestir historias inventadas",
+                                            "falar de algo que não entende como se entendesse",
+                                            "falar mal de nerds",
+                                            "bullying"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tipo": "temporario",
+                    "nome": "debochada",
+                    "forca": 15,
+                    "catacteristicas": [
+                        "sinismo",
+                        "sarcasmo",
+                        "humor negro",
+                        "ofensiva"
+                    ],
+                    "causa": "chatiche",
+                    "mudancas": [
+                        {
+                            "tipo": "calma",
+                            "persona_alvo": "normal",
+                            "forca": 100,
+                            "causa": [
+                                {
+                                    "tipo": "conversa",
+                                    "forca": 95,
+                                    "agente": {
+                                        "grupo": "todo_mundo",
+                                        "princial": null,
+                                        "motivacao": [
+                                            "vergonha",
+                                            "fazer alguém se sentir mal",
+                                            "relcamar"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "info_pessoal": {
+            "idade": 16,
+            "aniversario": {
+                "mes": 5,
+                "dia": 17
+            }
+        },
+        "info_medica": {
+            "saude": 90,
+            "vigor": 85,
+            "alergias": [ ],
+            "doencas": [ ],
+            "sangue": {
+                "tipo": "B",
+                "rh": "+"
+            },
+            "medidas": {
+                "altura": 1.65,
+                "peso": 56,
+                "busto": 45,
+                "cintura": 35,
+                "bunda": 50
+            }
+        },
+        "info_social": {
+            "alegria": 75,
+            "ameaca": 99,
+            "reputacao": [
+                {
+                    "publico": {
+                        "tipo": "todos_alunos",
+                        "nome": null
+                    },
+                    "percepcao": "boa",
+                    "motivo": "inteligente",
+                    "forca": 70,
+                    "causa": {
+                        "tipo": "divulgação",
+                        "forca": 70,
+                        "agente": {
+                            "grupo": "professores",
+                            "princiapl": null,
+                            "motivacao": [
+                                "boas notas"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "publico": {
+                        "tipo": "classe",
+                        "nome": "A2"
+                    },
+                    "percepcao": "ruim",
+                    "forca": 80,
+                    "motivo": "mentirosa",
+                    "causa": {
+                        "tipo": "difamação",
+                        "forca": 25,
+                        "agente": {
+                            "grupo": "alunos",
+                            "princiapl": "<reporter>",
+                            "motivacao": [
+                                "desconhecida"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "amigos": [
+                {
+                    "tipo": {
+                        "grupo": "classe",
+                        "nome": "A1"
+                    },
+                    "percepcao": "boa",
+                    "forca": 40,
+                    "causa": {
+                        "tipo": "convivencia",
+                        "forca": "85",
+                        "agente": {
+                            "grupo": "alunos",
+                            "principal": null,
+                            "motivacao": [
+                                "bonita",
+                                "inteligente",
+                                "responsavel",
+                                "ajuda com estudos"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tipo": {
+                        "grupo": "melhor amigo",
+                        "nome": "<senpai>"
+                    },
+                    "percepcao": "excelente",
+                    "forca": 70,
+                    "causa": {
+                        "tipo": "conversa",
+                        "forca": 95,
+                        "agente": {
+                            "grupo": "self",
+                            "principal": null,
+                            "motivacao": [
+                                "engraçada",
+                                "inteligente",
+                                "bonita",
+                                "paciente",
+                                "empatica",
+                                "atenciosa",
+                                "conta historias",
+                                "fã de aliens",
+                                "meio nerd"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "amantes": [ ],
+            "rivais": [ ],
+            "historia": "",
+            "segredos": [ ],
+            "grupos": [ ]
+        },
+        "info_classe": {
+            "sala": {
+                "classe": "A",
+                "ano": 1,
+                "numero_chamada": 8
+            },
+            "notas": [ ],
+            "presensa": 100
+        },
+        "info_clube": {
+            "participa": [ ],
+            "saiu": [ ],
+            "expulso": [ ]
+        },
+        "notas_adicionais": "",
+        "falas":{
+            "normal":[
+                {
+                    "tipo":"comum",
+                    "chance":1.0,
+                    "sequencia":[
+                        {
+                            "falando":"player",
+                            "texto":"Com licensa...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Desculpe, estou com pressa!"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Posso te ajudar de alguma forma...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Estou procurando a desgraçada da <Reporter>, vou encher ela de porrada"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Por favor, sem violência..."
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Mas, foi ela quem pediu. Ninguém vai me impedir de obter minhva vingança, nem mesmo você!"
+                        }
+                    ]
+                }
+            ],
+            "evento":[
+                {
+                    "tipo":"comum",
+                    "chance":1.0,
+                    "sequencia":[
+                        {
+                            "falando":"player",
+                            "texto":"Com licensa...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Vá se foder!"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Qual a necessidade disso?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Necessidade de humilhar vagabundas."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "alien":{
+        "id": 1,
+        "nome":"alien",
+        "nome_completo": "alien-chan",
+        "personalidade": {
+            "estabilidade": 75,
+            "gostos": [
+                {
+                    "tipo": "comida",
+                    "nome": "hamburguer",
+                    "forca": 45,
+                    "efeito": []
+                }
+            ],
+            "personas": [
+                {
+                    "tipo": "normal",
+                    "nome": "normal",
+                    "forca": 95,
+                    "catacteristicas": [
+                        "extovertida",
+                        "engraçada",
+                        "empatica"
+                    ],
+                    "causa": null,
+                    "mudancas": [
+                        {
+                            "tipo": "chatiche",
+                            "persona_alvo": "debochada",
+                            "forca": 2,
+                            "causa": [
+                                {
+                                    "tipo": "conversa",
+                                    "forca": 95,
+                                    "agente": {
+                                        "grupo": "todo_mundo",
+                                        "princial": "<reporter>",
+                                        "motivacao": [
+                                            "demestir historias inventadas",
+                                            "falar de algo que não entende como se entendesse",
+                                            "falar mal de nerds",
+                                            "bullying"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tipo": "temporario",
+                    "nome": "debochada",
+                    "forca": 15,
+                    "catacteristicas": [
+                        "sinismo",
+                        "sarcasmo",
+                        "humor negro",
+                        "ofensiva"
+                    ],
+                    "causa": "chatiche",
+                    "mudancas": [
+                        {
+                            "tipo": "calma",
+                            "persona_alvo": "normal",
+                            "forca": 100,
+                            "causa": [
+                                {
+                                    "tipo": "conversa",
+                                    "forca": 95,
+                                    "agente": {
+                                        "grupo": "todo_mundo",
+                                        "princial": null,
+                                        "motivacao": [
+                                            "vergonha",
+                                            "fazer alguém se sentir mal",
+                                            "relcamar"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "info_pessoal": {
+            "idade": 16,
+            "aniversario": {
+                "mes": 5,
+                "dia": 17
+            }
+        },
+        "info_medica": {
+            "saude": 90,
+            "vigor": 85,
+            "alergias": [ ],
+            "doencas": [ ],
+            "sangue": {
+                "tipo": "B",
+                "rh": "+"
+            },
+            "medidas": {
+                "altura": 1.65,
+                "peso": 56,
+                "busto": 45,
+                "cintura": 35,
+                "bunda": 50
+            }
+        },
+        "info_social": {
+            "alegria": 75,
+            "ameaca": 99,
+            "reputacao": [
+                {
+                    "publico": {
+                        "tipo": "todos_alunos",
+                        "nome": null
+                    },
+                    "percepcao": "boa",
+                    "motivo": "inteligente",
+                    "forca": 70,
+                    "causa": {
+                        "tipo": "divulgação",
+                        "forca": 70,
+                        "agente": {
+                            "grupo": "professores",
+                            "princiapl": null,
+                            "motivacao": [
+                                "boas notas"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "publico": {
+                        "tipo": "classe",
+                        "nome": "A2"
+                    },
+                    "percepcao": "ruim",
+                    "forca": 80,
+                    "motivo": "mentirosa",
+                    "causa": {
+                        "tipo": "difamação",
+                        "forca": 25,
+                        "agente": {
+                            "grupo": "alunos",
+                            "princiapl": "<reporter>",
+                            "motivacao": [
+                                "desconhecida"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "amigos": [
+                {
+                    "tipo": {
+                        "grupo": "classe",
+                        "nome": "A1"
+                    },
+                    "percepcao": "boa",
+                    "forca": 40,
+                    "causa": {
+                        "tipo": "convivencia",
+                        "forca": "85",
+                        "agente": {
+                            "grupo": "alunos",
+                            "principal": null,
+                            "motivacao": [
+                                "bonita",
+                                "inteligente",
+                                "responsavel",
+                                "ajuda com estudos"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tipo": {
+                        "grupo": "melhor amigo",
+                        "nome": "<senpai>"
+                    },
+                    "percepcao": "excelente",
+                    "forca": 70,
+                    "causa": {
+                        "tipo": "conversa",
+                        "forca": 95,
+                        "agente": {
+                            "grupo": "self",
+                            "principal": null,
+                            "motivacao": [
+                                "engraçada",
+                                "inteligente",
+                                "bonita",
+                                "paciente",
+                                "empatica",
+                                "atenciosa",
+                                "conta historias",
+                                "fã de aliens",
+                                "meio nerd"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "amantes": [ ],
+            "rivais": [ ],
+            "historia": "",
+            "segredos": [ ],
+            "grupos": [ ]
+        },
+        "info_classe": {
+            "sala": {
+                "classe": "A",
+                "ano": 1,
+                "numero_chamada": 8
+            },
+            "notas": [ ],
+            "presensa": 100
+        },
+        "info_clube": {
+            "participa": [ ],
+            "saiu": [ ],
+            "expulso": [ ]
+        },
+        "notas_adicionais": "",
+        "falas":{
+            "normal":[
+                {
+                    "tipo":"comum",
+                    "chance":1.0,
+                    "sequencia":[
+                        {
+                            "falando":"player",
+                            "texto":"Com licensa...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Desculpe, estou com pressa!"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Posso te ajudar de alguma forma...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Estou procurando a desgraçada da <Reporter>, vou encher ela de porrada"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Por favor, sem violência..."
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Mas, foi ela quem pediu. Ninguém vai me impedir de obter minhva vingança, nem mesmo você!"
+                        }
+                    ]
+                }
+            ],
+            "evento":[
+                {
+                    "tipo":"comum",
+                    "chance":1.0,
+                    "sequencia":[
+                        {
+                            "falando":"player",
+                            "texto":"Com licensa...?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Vá se foder!"
+                        },
+                        {
+                            "falando":"player",
+                            "texto":"Qual a necessidade disso?"
+                        },
+                        {
+                            "falando":"self",
+                            "texto":"Necessidade de humilhar vagabundas."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
